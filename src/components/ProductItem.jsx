@@ -10,6 +10,9 @@ const ProductItem = (props) => {
             <div className="product-item__description">
                 <h2 className="text-red-900">{props.title}</h2>
             </div>
+            <div>
+                <h1>hello</h1>
+            </div>
         </Card>
     );
 }
